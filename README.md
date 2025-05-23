@@ -20,7 +20,7 @@ Docker images and python packages and applications.
 2. Create a new cookiecutter template from this repository by using the
     `aws-terraform-deployment-template` branch from the main repository.
     ```
-    cookiecutter https://github.com/vcalderon2009/2025-02-GenAI-workshop-LLM-Deployment.git --checkout aws-terraform-deployment-template
+    cookiecutter https://github.com/vcalderon2009/GenAI-LLM-Deployment-FastAPI-Docker-AWS-cookiecutter.git
     ```
 
 3. Fill in the project's metadata.
