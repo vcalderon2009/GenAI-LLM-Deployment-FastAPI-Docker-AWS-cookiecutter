@@ -1,7 +1,7 @@
 {
     "project_name": "project_name",
-    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-    "application_name": "{{ cookiecutter.repo_name }}.replace('_', '-')",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace('-', '').replace(' ', '_') }}",
+    "application_name": "{{ cookiecutter.repo_name.replace('_', '-') }}",
     "app_service_name" : "{{ cookiecutter.repo_name }}_microservice",
     "author_name": "Your name (or your organization/company/team)",
     "author_email": "Your email address",
